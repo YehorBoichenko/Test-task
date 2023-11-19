@@ -1,0 +1,110 @@
+{
+  "folders": [
+    {
+      "id": 1,
+      "name": "Folder 1",
+      "folders": [
+        {
+          "id": 2,
+          "name": "Subfolder 1.1",
+          "folders": [
+            {
+              "id": 4,
+              "name": "Sub-subfolder 1.1.1",
+              "folders": [],
+              "files": [],
+              "permissions": "read"
+            }
+          ],
+          "files": [
+            {
+              "id": 1,
+              "name": "file1.txt",
+              "permissions": "read"
+            },
+            {
+              "id": 2,
+              "name": "file2.txt",
+              "permissions": "write"
+            }
+          ],
+          "permissions": "read"
+        },
+        {
+          "id": 3,
+          "name": "Subfolder 1.2",
+          "folders": [],
+          "files": [
+            {
+              "id": 3,
+              "name": "file3.txt",
+              "permissions": "read"
+            }
+          ],
+          "permissions": "write"
+        }
+      ],
+      "files": [
+        {
+          "id": 4,
+          "name": "file4.txt",
+          "permissions": "read"
+        },
+        {
+          "id": 5,
+          "name": "file8.txt",
+          "permissions": "write"
+        }
+      ],
+      "permissions": "read"
+    },
+    {
+      "id": 5,
+      "name": "Folder 2",
+      "folders": [
+        {
+          "id": 6,
+          "name": "Subfolder 2.1",
+          "folders": [],
+          "files": [],
+          "permissions": "read"
+        },
+        {
+          "id": 7,
+          "name": "Subfolder 2.2",
+          "folders": [],
+          "files": [
+            {
+              "id": 6,
+              "name": "file5.txt",
+              "permissions": "write"
+            }
+          ],
+          "permissions": "write"
+        }
+      ],
+      "files": [
+        {
+          "id": 7,
+          "name": "file6.txt",
+          "permissions": "read"
+        }
+      ],
+      "permissions": "read"
+    },
+    {
+      "id": 8,
+      "name": "Empty Folder",
+      "folders": [],
+      "files": [],
+      "permissions": "read"
+    },
+    {
+      "id": 9,
+      "name": "Another Empty Folder",
+      "folders": [],
+      "files": [],
+      "permissions": "write"
+    }
+  ]
+}
